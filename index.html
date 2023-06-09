@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="prompt-container">
+        <div class="hello-user">
+            <h2>View Ingrid's Instagram page?</h2>
+        </div>
+
+        <a href="main.html" target="_blank">
+            <button type="button" class="button-prompts" class="yesbutton" onClick="goToPage()">Yes</button>
+        </a>
+        <button type="button" class="button-prompts" class="nobutton" onClick="homePage()" target="_blank">No</button>
+        
+
+    </div>
+
+
+    <script type="text/javascript">
+        function homePage(){
+            location.replace("https://www.instagram.com");
+        }
+    </script>
+</body>
+</html>

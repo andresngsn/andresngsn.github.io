@@ -1,0 +1,56 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image:url("/images/gradient-background-instagram-free-vector.jpg");
+    padding:0;
+    margin:0;
+}
+
+.prompt-container{
+    width:450px;
+    height:280px;
+    transform:translate(100%, 60%);
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    box-shadow:10px 10px #833ab4;
+}
+
+.hello-user{         /*prompt question*/
+    text-align:center;
+    padding-bottom:50px;
+    padding-top:30px;
+    
+}
+
+.button-prompts{
+    width:30%;
+    height:20%;
+    font-size:30px;
+    border-radius:10px;
+    transform:translateX(80px);
+    border-style:none;
+    background-color:silver;
+    box-shadow: 0 9px;
+}
+
+.button-prompts:hover{
+    filter:brightness(92%);
+    cursor:pointer;
+}
+
+@media screen and (min-width:1500px) and (max-width:1920px){
+    .prompt-container{
+        width:550px;
+        height:380px;
+        transform:translate(130%, 80%);
+    }
+
+    .hello-user{
+        padding-top:50px;
+    }
+
+    .button-prompts{
+        transform:translateX(110px);
+    }
+}
