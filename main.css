@@ -358,8 +358,8 @@ hr{
     }
 
     .cell img{
-        width:500px;
-        height:500px;
+        width:400px;
+        height:400px;
        
     }
 
@@ -368,39 +368,53 @@ hr{
     }
 
     .aside-row1{
-        transform:translateY(-3536px);
+        transform:translateY(-3436px);
     }
 
     .aside-cell1{
-        transform:translateY(-3520px);
+        transform:translateY(-3420px);
     }
     
     .aside-cell2{
-        transform:translateY(-3500px);
+        transform:translateY(-3400px);
     }
     
     .aside-cell3{
-        transform:translateY(-3478px);
+        transform:translateY(-3378px);
     }
     
     .aside-cell4{
-        transform:translateY(-3456px);
+        transform:translateY(-3366px);
     }
     
     .aside-cell5{
-        transform:translateY(-3436px);
+        transform:translateY(-3346px);
     }
     
     .aside-cell6{
-        transform:translateY(-3415px);
+        transform:translateY(-3325px);
     }
     .aside-cell7{
-        transform:translate(2px,-3396px);
+        transform:translate(2px,-3306px);
     }
     
     
     .aside-cell9{
-        transform:translate(5px, -3436px);
+        transform:translate(5px, -2926px);
+    }
+
+    #sidebarprofilepic {
+        width:20%;
+        border-radius:50%;
+        border-style:solid;
+        border-width:1px;
+        transform:translateY(-3290px);
+    }
+    
+    #sidebartext{
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight:normal;
+        transform:translate(54px,-3326px);
     }
     
 }
