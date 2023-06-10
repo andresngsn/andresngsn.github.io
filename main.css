@@ -229,14 +229,15 @@ hr{
 .aside-cell6{
     transform:translateY(-1815px);
 }
+
 .aside-cell7{
     transform:translate(2px,-1796px);
 }
 
-
 .aside-cell9{
     transform:translate(5px, -1786px);
 }
+
 #sidebarprofilepic {
     width:20%;
     border-radius:50%;
@@ -268,86 +269,87 @@ hr{
 
 @media screen and (min-width:1500px) and (max-width:1920px){
     .profilepicture{
-        width: 12%;
+        width: 10%;
         border-radius:50%;
         border-style:solid;
         border-width:2px;
         border-color:rgb(182, 179, 179);
-        transform:translate(460px, 25px);
+        transform:translate(560px, 25px);
     }
 
     #username{
-        transform:translate(720px,-140px);
+        transform:translate(820px,-140px);
         font-weight:normal;
     }
 
     .stats{
-        transform:translate(250px,20px);
+        transform:translate(350px,20px);
         font-size:16px;
     }
 
     #followButton{
-        transform:translate(914px, -164px);
+        transform:translate(994px, -164px);
         width: 94px;
         height:32px;
     }
 
     #messageButton{
-        transform:translate(918px, -164px);
+        transform:translate(1000px, -164px);
         width:94px;
         height:32px;
     }
 
     .bio{
         font-size:12px;
-        transform:translate(722px,-120px);
+        transform:translate(822px,-120px);
     }
 
     .story_highlights img{
         border-radius:50%;
-        width:6.5%;
+        width:5.5%;
     }
+    
     .highlight_text{
         font-size:12px;
     }
     
     #jazz{
-        transform:translate(460px,-50px);
+        transform:translate(548px,-50px);
     }
     
     #text1{
         position:relative;
-        right:-368px;
+        right:-468px;
         top:-20px;
     }
     
     #instrumental{
-        transform:translate(450px,-50px);
+        transform:translate(550px,-50px);
     }
     
     #text2{
         position:relative;
-        right:-354px;
+        right:-456px;
         top:-20px;
     }
     
     #drumline{
-        transform:translate(420px, -50px);
+        transform:translate(520px, -50px);
     }
     
     #text3{
         position:relative;
-        right:-332px;
+        right:-436px;
         top:-20px;
     }
     
     #MYJO{
-        transform:translate(410px, -50px);
+        transform:translate(510px, -50px);
     }
     
     #text4{
         position:relative;
-        right:-332px;
+        right:-432px;
         top:-20px;
     }
 
@@ -355,6 +357,11 @@ hr{
         display:grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 40vw);
+    }
+
+    hr{
+        transform:translateX(434px);
+        width:70%;
     }
 
     .cell img{
@@ -398,9 +405,8 @@ hr{
         transform:translate(2px,-3306px);
     }
     
-    
     .aside-cell9{
-        transform:translate(5px, -2926px);
+        transform:translate(5px, -3026px);
     }
 
     #sidebarprofilepic {
