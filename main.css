@@ -365,8 +365,8 @@ hr{
     }
 
     .cell img{
-        width:440px;
-        height:440px;
+        width:500px;
+        height:500px;
        
     }
 
@@ -375,38 +375,38 @@ hr{
     }
 
     .aside-row1{
-        transform:translateY(-3436px);
+        transform:translateY(-2636px);
     }
 
     .aside-cell1{
-        transform:translateY(-3420px);
+        transform:translateY(-2580px);
     }
     
     .aside-cell2{
-        transform:translateY(-3400px);
+        transform:translateY(-2560px);
     }
     
     .aside-cell3{
-        transform:translateY(-3378px);
+        transform:translateY(-2548px);
     }
     
     .aside-cell4{
-        transform:translateY(-3366px);
+        transform:translateY(-2530px);
     }
     
     .aside-cell5{
-        transform:translateY(-3346px);
+        transform:translateY(-2506px);
     }
     
     .aside-cell6{
-        transform:translateY(-3325px);
+        transform:translateY(-2485px);
     }
     .aside-cell7{
-        transform:translate(2px,-3306px);
+        transform:translate(2px,-2466px);
     }
     
     .aside-cell9{
-        transform:translate(5px, -2886px);
+        transform:translate(5px, -2186px);
     }
 
     #sidebarprofilepic {
@@ -414,13 +414,13 @@ hr{
         border-radius:50%;
         border-style:solid;
         border-width:1px;
-        transform:translateY(-3290px);
+        transform:translateY(-2440px);
     }
     
     #sidebartext{
         font-family:Arial, Helvetica, sans-serif;
         font-weight:normal;
-        transform:translate(54px,-3326px);
+        transform:translate(54px,-2476px);
     }
     
 }
