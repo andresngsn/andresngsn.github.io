@@ -356,7 +356,7 @@ hr{
     .posts-container{
         display:grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(4, 40vw);
+        grid-template-rows: repeat(4, 30vw);
     }
 
     hr{
