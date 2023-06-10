@@ -365,8 +365,8 @@ hr{
     }
 
     .cell img{
-        width:500px;
-        height:500px;
+        width:600px;
+        height:600px;
        
     }
 
@@ -406,7 +406,7 @@ hr{
     }
     
     .aside-cell9{
-        transform:translate(5px, -2926px);
+        transform:translate(5px, -2886px);
     }
 
     #sidebarprofilepic {
