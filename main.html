@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" media="screen and (min-width:1370px) and (max-width:1605px)"href="desktop.css">
+    <script src="https://kit.fontawesome.com/e40e1e96ef.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <img src="images/Copy of IMG_7420 (2).jpg" class="profilepicture" alt="Ingrid_playing_trumpet"> <!--profilepicture-->
+        
+
+        <h3 id="username">Ingrid_Singson</h3>
+        
+        <button id="followButton" type="button" onClick="followButtonClicked(); changeButtonColor()">Follow</button>
+        <button id="messageButton" type="button">Message</button>
+        
+        <div class="stats">
+        <span id="numofposts"><b>9 </b> posts</span>
+        <span id="followers" ><b>470 </b>followers</span>
+        <span id="following" ><b>646 </b>following</span>
+        </div>
+
+        <div class="bio">
+            <span><b>Ingrid Singson</b></span>
+            <p>This profile includes some of my highlights being in the band <br>
+                program from gr10-12.</p>
+        </div>
+
+        <section class="story_highlights">
+            <ul>
+                <img src="images/copy.jpeg" alt="jazz_band" id="jazz">
+                <span id="text1" class="highlight_text">Jazz Band</span>
+
+                <img src="images/DSC_5169copy.jpg" alt="trumpets" id="instrumental">
+                <span id="text2" class="highlight_text">Instrumental</span>
+                
+                <img src="images/3ED67C74-C515-4CDE-B649-BC7BF596C3FD.jpg" alt="drumline" id="drumline">
+                <span id="text3" class="highlight_text">Drumline</span>
+
+                <img src="images/UUXE9779copy.jpg" alt="MYJO" id="MYJO">
+                <span id="text4" class="highlight_text">MYJO</span>
+            </ul>    
+        </section>
+    </header>
+
+    <main>
+<hr>
+        <div class="posts-container"><!--container that surrounds area with all the imgs-->
+            <div class="column1"><!--first column of images-->
+                <div class="cell">
+                   <img src="images/IMG_1709.JPG" id="myImg1" class="row1" alt="Jack, Ingrid, Sam with award" >
+                </div>
+                <div class="cell" >
+                   <img src="images/IMG_8690.PNG" class="row2" alt="Trinity jazz band at the YardBird Suite" >
+                </div>
+                <div class="cell">
+                    <img src="images/IMG_1073.JPEG"class="row3" alt="jazz band trumpet section 2022-2023">
+                </div>
+                <div class="cell">
+                    <img src="images/IMG_7014.JPG" class="row4" alt="SAB christmas concert 2021">
+                </div>
+            </div>
+
+            <div class="column2"> <!--middle column of imgs-->
+                <div class="cell"  >
+                    <img src="images/IMG_8592.JPG"class="row1" alt="Trinity music in Vancouver" >
+                </div>
+                <div class="cell" >
+                    <img src="images/IMG_8301.JPG"class="row2" alt="Trinity music at the Winspear">
+                </div>
+                <div class="cell"  >
+                    <img src="images/IMG_0808.JPG" class="row3" alt="Big Band Night 2022">
+                </div>
+                <div class="cell" >
+                    <img src="images/IMG_4881.PNG" class="row4" alt="drumline 2021 at the commonwealth stadium">
+                </div>
+            </div>
+
+            <div class="column3"> <!--third column of imgs-->
+                <div class="cell"  >
+                    <img src="images/UUXE9779copy.jpg"class="row1" alt="MYJO 2022-2023 at their last concert">
+                </div>
+                <div class="cell" >
+                    <img src="images/50A7FA98-269C-4848-899D-6CCF856F279E.jpg" class="row2" alt="Drumline 2022-2023 at the annual Trojan Cup">
+                </div>
+                <div class="cell"  >
+                    <img src="images/IMG_6544.JPG"class="row3" alt="UofA honour band 2022">
+                </div>
+                <div class="cell" >
+                    <img src="images/8929344B-7D46-4716-BDCE-953A2FDE6700.jpg" class="row4" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+    <aside>
+        <div class="aside-container"> <!--sidebar container--> <!--just decor for now-->
+            <div class="aside-column">
+                <div class="instagram-logo" >
+                        <img src="images/Logo-Instagram.png" alt="instagram-logo" class="aside-row1" width="100px" height="60px" object-fit="cover"> 
+                </div>
+                <div class="aside-cell1">
+                    <a href="https://www.instagram.com">
+                    <i class="fa-solid fa-house fa-xl"></i> <div class="sidebar-stuffs">Home</div>
+                    </a>
+                </div>
+                <div class="aside-cell2">
+                   <i class="fa-solid fa-magnifying-glass fa-xl"></i> <div class="sidebar-stuffs">Search</div>
+                </div>
+                <div class="aside-cell3">
+                    <a href="https://www.instagram.com/explore/">
+                    <i class="fa-solid fa-compass fa-xl"></i> <div class="sidebar-stuffs">Explore</div>
+                    </a>
+                </div>
+                <div class="aside-cell4">
+                    <a href="https://www.instagram.com/reels/">
+                    <i class="fa-solid fa-clapperboard fa-xl"></i> <div class="sidebar-stuffs">Reels</div>
+                    </a>
+                </div>
+                <div class="aside-cell5">
+                    <i class="fa-solid fa-message fa-xl"></i> <div class="sidebar-stuffs">Messages</div> 
+                </div>
+                <div class="aside-cell6">
+                    <i class="fa-solid fa-heart fa-xl" ></i> <div class="sidebar-stuffs">Notifications</div>
+                </div>
+                <div class="aside-cell7">
+                    <i class="fa-solid fa-square-plus fa-xl" ></i> <div class="sidebar-stuffs">Create</div>
+                </div>
+                <div class="side-cell8" > <!--profile pic-->
+                    <img src="images/Copy of IMG_7420 (2).jpg" alt="profile-picture-icon" id="sidebarprofilepic">
+                    <h4 id="sidebartext" >Profile</h4>
+                </div>
+                
+                <div class="aside-cell9">
+                    <i class="fa-solid fa-lines-leaning xl"></i> <div class="sidebar-stuffs">More</div>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+  
+</body>
+</html>

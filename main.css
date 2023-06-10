@@ -1,0 +1,406 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    overflow-x:hidden;
+    overflow-y:scroll;
+    font-family:Arial, Arial, Helvetica, sans-serif;
+    min-width:fit-content;
+    min-height:fit-content;
+}
+
+.profilepicture {
+    width: 12%;
+    border-radius:50%;
+    border-style:solid;
+    border-width:2px;
+    border-color:rgb(182, 179, 179);
+    transform:translate(360px, 25px);
+    
+}
+
+
+#username{
+    transform:translate(620px,-140px);
+    font-weight:normal;
+    
+}
+
+#followButton{
+    transform:translate(814px, -164px);
+    width: 94px;
+    height:32px;
+    border-radius:8px;
+    border-style:none;
+    background-color:#0095F6;
+    color:white;
+    font-weight:bold;
+}
+
+#followButton:hover{
+    filter:brightness(95%);
+    cursor:pointer;
+}
+#messageButton{
+    transform:translate(818px, -164px);
+    width:94px;
+    height:32px;
+    border-radius:8px;
+    border-style:none;
+    background-color:#F0F2F5;
+    color:black;
+    font-weight:bold;
+}
+
+#messageButton:hover{
+    filter:brightness(95%);
+    cursor:pointer;
+}
+.stats{
+    transform:translate(150px,20px);
+    font-size:14px;
+}
+
+#numofposts{
+    position:relative;
+    right:-472px;
+    top:-160px;
+}
+
+#followers{
+    position:relative;
+    right:-500px;
+    top:-160px;
+}
+
+#following{
+    position:relative;
+    right:-530px;
+    top:-160px;
+}
+
+.bio{
+    font-size:12px;
+    transform:translate(622px,-120px);
+}
+
+.story_highlights img{
+    border-radius:50%;
+    width:5.5%;
+    border-style:solid;
+    border-width:1px;
+    border-color:grey;
+}
+
+.highlight_text{
+    font-size:12px;
+    
+}
+
+#jazz{
+    transform:translate(340px,-50px);
+}
+
+#text1{
+    position:relative;
+    right:-268px;
+    top:-20px;
+}
+
+#instrumental{
+    transform:translate(330px,-50px);
+}
+
+#text2{
+    position:relative;
+    right:-254px;
+    top:-20px;
+}
+
+#drumline{
+    transform:translate(300px, -50px);
+}
+
+#text3{
+    position:relative;
+    right:-232px;
+    top:-20px;
+}
+
+#MYJO{
+    transform:translate(290px, -50px);
+}
+
+#text4{
+    position:relative;
+    right:-232px;
+    top:-20px;
+}
+
+hr{
+    transform:translateX(328px);
+    width:70%;
+}
+.posts-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 30vw);
+    
+}
+
+.cell img{
+    width:300px;
+    height:300px;
+    float:right;
+    padding:0px;
+    object-fit:cover;
+    transition:0.1s;  
+}
+
+
+.column1{
+    transform:translateX(198px);
+}
+
+.column2{
+    transform:translateX(66px);
+}
+
+.column3{
+    transform:translateX(-68px);
+}
+
+.row1{
+    transform:translateY(34px);
+}
+
+.row2{
+    transform:translateY(38px);
+}
+
+.row3{
+    transform:translateY(42px);
+}
+
+.row4{
+    transform:translateY(46px);
+}
+
+.aside-container{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(10,30vw);
+    position:fixed;
+    width:10%
+}
+
+.aside-column{
+    transform:translateX(30px);
+}
+
+
+.aside-row1{
+    transform:translateY(-1936px);
+}
+
+
+.aside-cell1{
+    transform:translateY(-1920px);
+}
+
+.aside-cell2{
+    transform:translateY(-1900px);
+}
+
+.aside-cell3{
+    transform:translateY(-1878px);
+}
+
+.aside-cell4{
+    transform:translateY(-1856px);
+}
+
+.aside-cell5{
+    transform:translateY(-1836px);
+}
+
+.aside-cell6{
+    transform:translateY(-1815px);
+}
+.aside-cell7{
+    transform:translate(2px,-1796px);
+}
+
+
+.aside-cell9{
+    transform:translate(5px, -1786px);
+}
+#sidebarprofilepic {
+    width:20%;
+    border-radius:50%;
+    border-style:solid;
+    border-width:1px;
+    transform:translateY(-1790px);
+}
+
+#sidebartext{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    transform:translate(54px,-1816px);
+}
+
+#sidebartext:hover{
+    cursor:pointer;
+    opacity:0.5;
+}
+
+.sidebar-stuffs{
+   transform:translate(50px, -18px);
+}
+
+.sidebar-stuffs:hover{
+    cursor:pointer;
+    opacity:0.5;
+    
+}
+
+@media screen and (min-width:1500px) and (max-width:1920px){
+    .profilepicture{
+        width: 12%;
+        border-radius:50%;
+        border-style:solid;
+        border-width:2px;
+        border-color:rgb(182, 179, 179);
+        transform:translate(460px, 25px);
+    }
+
+    #username{
+        transform:translate(720px,-140px);
+        font-weight:normal;
+    }
+
+    .stats{
+        transform:translate(250px,20px);
+        font-size:16px;
+    }
+
+    #followButton{
+        transform:translate(914px, -164px);
+        width: 94px;
+        height:32px;
+    }
+
+    #messageButton{
+        transform:translate(918px, -164px);
+        width:94px;
+        height:32px;
+    }
+
+    .bio{
+        font-size:12px;
+        transform:translate(722px,-120px);
+    }
+
+    .story_highlights img{
+        border-radius:50%;
+        width:6.5%;
+    }
+    .highlight_text{
+        font-size:12px;
+    }
+    
+    #jazz{
+        transform:translate(460px,-50px);
+    }
+    
+    #text1{
+        position:relative;
+        right:-368px;
+        top:-20px;
+    }
+    
+    #instrumental{
+        transform:translate(450px,-50px);
+    }
+    
+    #text2{
+        position:relative;
+        right:-354px;
+        top:-20px;
+    }
+    
+    #drumline{
+        transform:translate(420px, -50px);
+    }
+    
+    #text3{
+        position:relative;
+        right:-332px;
+        top:-20px;
+    }
+    
+    #MYJO{
+        transform:translate(410px, -50px);
+    }
+    
+    #text4{
+        position:relative;
+        right:-332px;
+        top:-20px;
+    }
+
+    .posts-container{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 40vw);
+    }
+
+    .cell img{
+        width:500px;
+        height:500px;
+       
+    }
+
+    .aside-column{
+        transform:translateX(30px);
+    }
+
+    .aside-row1{
+        transform:translateY(-3536px);
+    }
+
+    .aside-cell1{
+        transform:translateY(-3520px);
+    }
+    
+    .aside-cell2{
+        transform:translateY(-3500px);
+    }
+    
+    .aside-cell3{
+        transform:translateY(-3478px);
+    }
+    
+    .aside-cell4{
+        transform:translateY(-3456px);
+    }
+    
+    .aside-cell5{
+        transform:translateY(-3436px);
+    }
+    
+    .aside-cell6{
+        transform:translateY(-3415px);
+    }
+    .aside-cell7{
+        transform:translate(2px,-3396px);
+    }
+    
+    
+    .aside-cell9{
+        transform:translate(5px, -3436px);
+    }
+    
+}
