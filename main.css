@@ -360,8 +360,8 @@ hr{
     }
 
     hr{
-        transform:translateX(434px);
-        width:70%;
+        transform:translateX(4504px);
+        width:63%;
     }
 
     .cell img{
@@ -370,15 +370,15 @@ hr{
     }
     
     .column1{
-        transform:translateX(246px);
+        transform:translateX(276px);
     }
 
     .column2{
-        transform:translateX(65px);
+        transform:translateX(38px);
     }
 
     .column3{
-        transform:translateX(-116px);
+        transform:translateX(-216px);
     }
 
 
