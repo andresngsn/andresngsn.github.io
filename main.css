@@ -370,15 +370,15 @@ hr{
     }
     
     .column1{
-        transform:translateX(206px);
+        transform:translateX(246px);
     }
 
     .column2{
-        transform:translateX(62px);
+        transform:translateX(65px);
     }
 
     .column3{
-        transform:translateX(-60px);
+        transform:translateX(-116px);
     }
 
 
@@ -387,38 +387,38 @@ hr{
     }
 
     .aside-row1{
-        transform:translateY(-3636px);
+        transform:translateY(-2636px);
     }
 
     .aside-cell1{
-        transform:translateY(-3580px);
+        transform:translateY(-2580px);
     }
     
     .aside-cell2{
-        transform:translateY(-3560px);
+        transform:translateY(-2560px);
     }
     
     .aside-cell3{
-        transform:translateY(-3548px);
+        transform:translateY(-2548px);
     }
     
     .aside-cell4{
-        transform:translateY(-3530px);
+        transform:translateY(-2530px);
     }
     
     .aside-cell5{
-        transform:translateY(-3506px);
+        transform:translateY(-2506px);
     }
     
     .aside-cell6{
-        transform:translateY(-3485px);
+        transform:translateY(-2485px);
     }
     .aside-cell7{
-        transform:translate(2px,-3466px);
+        transform:translate(2px,-2466px);
     }
     
     .aside-cell9{
-        transform:translate(5px, -3186px);
+        transform:translate(5px, -2186px);
     }
 
     #sidebarprofilepic {
@@ -426,13 +426,13 @@ hr{
         border-radius:50%;
         border-style:solid;
         border-width:1px;
-        transform:translateY(-3440px);
+        transform:translateY(-2440px);
     }
     
     #sidebartext{
         font-family:Arial, Helvetica, sans-serif;
         font-weight:normal;
-        transform:translate(54px,-3476px);
+        transform:translate(54px,-2476px);
     }
     
 }
