@@ -370,15 +370,15 @@ hr{
     }
     
     .column1{
-        transform:translateX(270px);
+        transform:translateX(288px);
     }
 
     .column2{
-        transform:translateX(38px);
+        transform:translateX(60px);
     }
 
     .column3{
-        transform:translateX(-154px);
+        transform:translateX(-168px);
     }
 
 
